@@ -1,0 +1,29 @@
+/* 뒤로 가기, 역 검색*/
+.function-box {
+  display: flex;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.back-site {
+  font-size: 50px;
+}
+
+.function-middle-box {
+  font-size: 30px;
+  position: absolute;
+  left: 45%;
+}
+
+.search-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.search-input-box {
+  width: 100%;
+  text-align: center;
+  border: none;
+}
