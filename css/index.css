@@ -1,7 +1,7 @@
 /* 전체 배경색 지정 */
 .index-body {
   background-color: #181f31;
-  min-height: 100vh;
+  margin: 0px;
 }
 
 /* 헤더 부분 */
@@ -14,7 +14,6 @@
 
 .index-main {
   margin-top: 30px;
-  min-height: 90vh;
 }
 
 .main-box {
