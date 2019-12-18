@@ -20,7 +20,8 @@
   padding: 1rem 1.5rem;
   width: 300px;
   height: 150px;
-  border-radius: 0.5r em;
+  border-radius: 0.5rem;
+  z-index: 5000;
 }
 
 .show-modal {
@@ -28,13 +29,26 @@
   visibility: visible;
   transform: scale(1);
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  z-index: 4000;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .submitBtn {
   width: 120px;
   height: 48px;
   border: none;
-  margin-top: 20px;
+  margin-top: 15px;
   cursor: pointer;
   margin-left: 55px;
 }
@@ -50,7 +64,7 @@
   height: 48px;
   text-align: center;
   border: none;
-  margin-top: 20px;
+  margin-top: 15px;
   cursor: pointer;
 }
 
@@ -62,7 +76,6 @@
 
 .title {
   font-family: "Oswald", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: #216182;
-  padding-left: 40%;
 }
